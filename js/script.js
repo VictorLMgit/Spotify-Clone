@@ -1,0 +1,1 @@
+$('.teste').hide().fadeIn(1000)
