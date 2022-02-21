@@ -1,5 +1,6 @@
 html,body, #home{
     height: 100%;
+    overflow-x: hidden;
     
 }
 
@@ -7,7 +8,7 @@ body{
 
     background:  url("../img/capa.png"),
     url("../img/ruido.png"),
-    linear-gradient(50deg, #ffff, #7c26f8);
+    linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
 }
 
@@ -60,7 +61,56 @@ body{
 
 }
 
+/* Services */
+#services , #recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#services h2,h3{
+    color: #7c25f8;
+}
 
+.albuns{
+    padding: 10px 0;
+}
+
+/* Recursos */
+
+#recursos h3{
+    color: #9bf0e1;
+}
+#recursos p{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.iphone-row{
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform:  rotate(30deg);
+    padding-left: 80px;
+
+}
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    
+}
+
+/* Footer */
+
+.img-teste{
+    display: flex;
+    align-self: center;
+    justify-content: end;
+   
+}
 @media (max-width: 575.98px) { 
     .main-text{
         font-size: 3em;
