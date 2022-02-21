@@ -1,1 +1,3 @@
-$('.teste').hide().fadeIn(1000)
+$('.show').hide().fadeIn(1000)
+
+

@@ -103,6 +103,13 @@ h3{
     
 }
 
+/* Carousel */
+
+.carousel-control-prev, .carousel-control-next{
+    width: 5%;
+    
+} 
+
 /* Footer */
 
 .img-teste{
